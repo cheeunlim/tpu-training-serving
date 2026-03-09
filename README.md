@@ -56,7 +56,7 @@ training/JAX_for_LLM_pretraining.ipynb
 
 본 실습에서는 Task 1 에서 학습한 모델을 NVIDIA L4 GPU 를 이용하여 vLLM 서빙을 합니다.
 
-Task 1 을 성공적으로 마쳤다면, 프로젝트 이름으로 생성된 GCS 버킷에 MiniGPT/model.safetensors 파일이 생성됩니다.
+Task 1 을 성공적으로 마쳤다면, 프로젝트 이름으로 생성된 GCS 버킷에 GPT2/model.safetensors 파일이 생성됩니다.
 
 이 모델 폴더를 GPU 가 탑재된 VM 에서 vLLM 을 이용해 서빙하기 위해 Vertex AI Workbench 환경을 이용합니다.
 
