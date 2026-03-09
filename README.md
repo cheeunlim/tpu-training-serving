@@ -85,6 +85,7 @@ serving/python/vLLM_LoadTest.ipynb
 아래의 노트북 파일을 열어 실습을 진행합니다.
 
 두 실습은 독립 실행이 가능하기 때문에 동시에 실행할 수 있습니다.
+
 (TPU 의 경우 Resource 부족 문제로 실패할 수 있습니다.)
 
 ```
@@ -100,7 +101,7 @@ serving/vertexai/handson-tpu.ipynb
 터미널 환경을 실행 후 아래의 명령어를 실행하여 샘플 vLLM 및 모니터링을 위한 Prometheus, Grafana 를 구성합니다.
 
 ```
-cd serving/gke
+cd tpu-training-serving/serving/gke
 chmod +x cluster.sh
 ./cluster.sh
 ```
