@@ -101,7 +101,7 @@ serving/vertexai/handson-tpu.ipynb
 터미널 환경을 실행 후 아래의 명령어를 실행하여 샘플 vLLM 및 모니터링을 위한 Prometheus, Grafana 를 구성합니다.
 
 ```
-cd tpu-training-serving/serving/gke
+cd ~/tpu-training-serving/serving/gke
 chmod +x cluster.sh
 ./cluster.sh
 ```
