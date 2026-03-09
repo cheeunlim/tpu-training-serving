@@ -111,9 +111,12 @@ chmod +x cluster.sh
 이 URL 로 진입 후, admin/admin 으로 로그인, Dashboard -> vLLM 메뉴로 예제 대시보드로 이동합니다.
 
 대시보드의 model_name 에 다음의 값을 입력합니다.
+
 ```
 mistralai/Mistral-7B-v0.1
 ```
+
+우측의 Refresh 옆 버튼을 누른 후 Auto 를 선택합니다.
 
 vLLM 서버가 Online 상태가 될때 까지 약 5분 정도 기다립니다.
 
