@@ -120,7 +120,10 @@ mistralai/Mistral-7B-v0.1
 
 vLLM 서버가 Online 상태가 될때 까지 약 5분 정도 기다립니다.
 
-아래의 명령어를 실행하여 샘플 트래픽을 vLLM 으로 주입, Dashboard 상에 vLLM 의 트래픽 처리 상태를 확인합니다.
+(vLLM 이 기동되면 대시보드의 Token Throughput 그래프가 0으로 출력되기 시작합니다.)
+
+
+vLLM 기동이 완료되면 아래의 명령어를 실행하여 샘플 트래픽을 주입, Dashboard 상에 vLLM 의 트래픽 처리 상태를 확인합니다.
 
 ```
 kubectl port-forward svc/vllm-service 8000:8000 &
